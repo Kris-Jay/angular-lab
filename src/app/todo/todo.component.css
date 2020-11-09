@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.task-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-component {
+  background-color: white;
+  width: 60%;
+  border-radius: 5px;
+}
+
+.task-start {
+  display: flex;
+}
+
+.done {
+  text-decoration: line-through;
+}
