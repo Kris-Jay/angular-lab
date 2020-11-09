@@ -1,8 +1,14 @@
 <main class="main">
   <section class="todo-component">
     <form #todoForm="ngForm" (input)="setTodoSearchTerm(todoForm)">
-      <label for="searchTerm">Search Term</label>
-      <input type="text" id="searchTerm" name="searchTerm" ngModel />
+      <label for="searchTerm"></label>
+      <input
+        type="text"
+        id="searchTerm"
+        name="searchTerm"
+        placeholder="Filter your to-dos"
+        ngModel
+      />
     </form>
     <h1>TODO List</h1>
     <p>A place to store your todos</p>
